@@ -1,0 +1,42 @@
+	.clearfix:after {
+			    content:" ";
+			    display:block;
+			    clear:both;
+			}
+			body{
+				padding: 20px;
+			}
+		
+			.main{
+				background-color: #eee;
+				padding: 20px;
+				border: 1px solid #999;
+				
+			}
+			.main>.group-logo{
+				width: 158px;
+				background-color: #fff;
+				float: left;
+				padding: 20px;
+				border: 1px solid #999;
+			}
+			.main>.group-logo>img{
+				vertical-align:text-top;
+				
+			}
+			.main>.post{
+				    background-color: #fff;
+				    padding: 20px;
+				    border: 1px solid #999;
+				    margin-left: 220px;
+				    margin-right: 140px;
+			}
+			.main>.team{
+				width: 80px;
+				padding: 19px;
+				background-color: #fff;
+				float: right;
+				padding: 20px;
+				border: 1px solid #999;
+			}
+			
